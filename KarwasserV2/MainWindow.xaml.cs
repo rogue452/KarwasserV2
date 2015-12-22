@@ -23,6 +23,7 @@ namespace KarwasserV2
         public MainWindow()
         {
             InitializeComponent();
+         //   this.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight;
             //Tal comment
             //Shuki
         }
