@@ -26,5 +26,10 @@ namespace KarwasserV2
             //Tal comment
             //Shuki
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
