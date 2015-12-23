@@ -17,7 +17,15 @@
                     <MenuItem Header="_Close"/>
                     <MenuItem Header="יציאה" Icon="X" Click="MenuItem_Click"/>
                 </MenuItem>
+                <MenuItem Header="Reports">
+                    <MenuItem Header="יציאה" Click="MenuItem_Click">
+                    <MenuItem.Icon>
+                        <Image Source="Images/8-iStock_7411665_XSmall_-_Cancel_Delete_Icon.jpg"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                </MenuItem>
             </Menu>
+            
             <StackPanel>
                 
             </StackPanel>
